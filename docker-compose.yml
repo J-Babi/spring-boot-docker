@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springapp:
-    image: J-Babi/spring-boot-mongo:latest
+    image: J-Babi/spring-boot-mongo-docker
     restart: always # This will be ignored if we deploy in docker swarm
     environment:
     - MONGO_DB_HOSTNAME=mongo
